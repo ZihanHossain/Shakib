@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: thistle;
+    height: 100vh;
+    background-image: url(log-background.jpg);
+    background-size: cover;
+}
+
+.login-box{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(179, 118, 118, 0.5);
+}
+.login-box input{
+    margin-bottom: 10px;
+    padding: 20px 113px;
+    text-align: center;
+}
